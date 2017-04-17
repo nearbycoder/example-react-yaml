@@ -1,0 +1,35 @@
+sections:
+  - component: Banner
+    title: Lorem ipsum dolor sit amet
+    subtitle: Sed vulputate molestie eros, ut vulputate tellus ornare sed.
+  
+  - components:
+    - title: Jerry Glanville
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate molestie eros, ut vulputate tellus ornare sed. Phasellus suscipit ipsum vitae est blandit, non mollis ante luctus. Nulla accumsan ultricies varius. Phasellus neque massa, dictum eget lacinia vitae, scelerisque et eros. Suspendisse ultricies tempor erat, vel scelerisque lorem varius ac.
+      image: 'http://placehold.it/150x100'
+      component: Card
+    
+    - title: Jerry Glanville
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate molestie eros, ut vulputate tellus ornare sed. Phasellus suscipit ipsum vitae est blandit, non mollis ante luctus. Nulla accumsan ultricies varius. Phasellus neque massa, dictum eget lacinia vitae, scelerisque et eros. Suspendisse ultricies tempor erat, vel scelerisque lorem varius ac.
+      image: 'http://placehold.it/150x100'
+      component: Card
+
+    - title: Jerry Glanville
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate molestie eros, ut vulputate tellus ornare sed. Phasellus suscipit ipsum vitae est blandit, non mollis ante luctus. Nulla accumsan ultricies varius. Phasellus neque massa, dictum eget lacinia vitae, scelerisque et eros. Suspendisse ultricies tempor erat, vel scelerisque lorem varius ac.
+      image: 'http://placehold.it/150x100'
+      component: Card
+    
+    - title: Jerry Glanville
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate molestie eros, ut vulputate tellus ornare sed. Phasellus suscipit ipsum vitae est blandit, non mollis ante luctus. Nulla accumsan ultricies varius. Phasellus neque massa, dictum eget lacinia vitae, scelerisque et eros. Suspendisse ultricies tempor erat, vel scelerisque lorem varius ac.
+      image: 'http://placehold.it/150x100'
+      component: Card
+    
+    - title: Jerry Glanville
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate molestie eros, ut vulputate tellus ornare sed. Phasellus suscipit ipsum vitae est blandit, non mollis ante luctus. Nulla accumsan ultricies varius. Phasellus neque massa, dictum eget lacinia vitae, scelerisque et eros. Suspendisse ultricies tempor erat, vel scelerisque lorem varius ac.
+      image: 'http://placehold.it/150x100'
+      component: Card

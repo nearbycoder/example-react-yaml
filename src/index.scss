@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  position: relative;
+  background-color: #F0F0EF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  position: relative;
+}
+
+
+.nav__side {
+  height: 600px;
+  display: flex;
+  width: 80px;
+  margin: 0;
+  position: absolute;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: stretch;
+  background-color: white;
+  z-index: 101;
+  border-right: 1px solid #C7C6BF;
+  left: -80px;
+  transition: left 0.5s ease;
+
+  &.active {
+    left: 0px;
+  }
+}
+
+.nav__side__toggle {
+  height: 30px;
+}
+
+.nav__side__logo {
+  margin: 20px;
+}
+.nav__side__social {
+  margin: 20px;
+}
+
+.nav__side__slideout {
+  box-sizing: border-box;
+  position: absolute;
+  height: 600px;
+  margin: 0;
+  margin-right: 82px;
+  width: 220px;
+  left: -220px;
+  background-color: white;
+  z-index: 100;
+  transition: left 0.5s ease;
+
+  &.active {
+    left: 80px;
+  }
+}
+
+.nav__side--bottom {
+  @extend .nav__side;
+  bottom: 0;
+}
+
+.nav__side--bottom ~ .nav__side__slideout {
+  bottom: 0;
+}
+
+.nav__side__slideout__list {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0 10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.nav__side__slideout__list__item {
+  padding: 10px 0;
+  list-style-type: none;
+  text-align: left;
+  border-bottom: 5px solid red;
+}
+
+.nav__bottom {
+  height: 80px;
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+.nav__bottom__list {
+  position: relative;
+  height: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0 10%;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: stretch;
+}
+
+.nav__bottom__list__item {
+  padding: 10px 0;
+  list-style-type: none;
+  text-align: left;
+  border-bottom: 5px solid red;
+}
+
+.long__form {
+  height: 3000px;
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  background-image: url("http://placehold.it/1200x720");
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+.banner__info {
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.banner__info__title {
+  font-size: 50px;
+}
+
+.banner__info__subtitle {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.section {
+  width: 80vw;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.wrap {
+  flex-flow: row wrap;
+}
+
+p, h5 {
+  margin: 20px;
+}
+
+.call__action {
+  width: 30%;
+  margin: 10px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card {
+  width: 80%;
+  padding: 0 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__content {
+  flex-grow: 1;
+  padding: 10px;
+
+  hr {
+    width: 20%;
+    left: 0;
+    position: relative;
+    display: block;
+    margin: 0;
+    border: none;
+    border-top: 3px solid #CCCCCC;
+    margin-left: 20px;
+  }
+}
